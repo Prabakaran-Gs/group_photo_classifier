@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project {{filename}}</title>
+</head>
+<body>
+    <h1>Project Name {{filename|upper}}</h1>   
+    <form method="post" action="\result" enctype="multipart/form-data">
+        <label>Enter your Name </label>
+        <input type="text" name="name" id="name" >
+        <br/><br/>
+        <label>Upload your photo</label><br><br/>
+        <input type="file" name="photo" id="photo" >
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
