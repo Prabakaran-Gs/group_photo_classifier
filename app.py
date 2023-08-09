@@ -6,7 +6,6 @@ import cv2 as cv
 import threading
 
 app = Flask(__name__)
-app.secret_key = "STIC_LMES@000"
 unique_faces = []
 unique_details = []
 unique_count = 0
